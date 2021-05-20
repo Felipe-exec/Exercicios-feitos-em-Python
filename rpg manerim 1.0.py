@@ -1,0 +1,28 @@
+from time import sleep
+cores = {'limpa':'\033[m', 'vermelho':'\033[31m', 'lilás':'\033[36m'}
+print('-=-'*20)
+print('{}Responda somente {}sim{} ou {}não{} aos questionários.{}'.format(cores['lilás'],cores['vermelho'], cores['limpa'],cores['vermelho'],cores['limpa'],cores['limpa'] ))
+print('-=-'*20)
+print('Inicializando jogo...')
+sleep(8)
+print('-=-'*10)
+sleep(1)
+print('Você está vendo uma grande porta que leva ao calabouço...')
+sleep(1)
+entrar = input('Você pode abrir a porta.... entrar?').strip().lower()
+if entrar == 'sim':
+    print('{}Bem-Vindo ao calabouço do maluco.{}'.format(cores['vermelho'], cores['limpa']))
+    sleep(2)
+    print('{}Você desce as escadas do calabouço e entra em um corredor...'.format(cores['vermelho']))
+    sleep(2)
+    print('Diante dos seus olhos você vê uma bola de fogo indo na sua direção...?!!!')
+    correr = input('Você vê quebradiços na parede para esconder-se, devo entrar ou não?').strip()
+    sleep(2)
+    print('{}Você acorda e percebe que era tudo um sonho, você é um bobalhão seu panaca.'.format(cores['lilás']))
+    sleep(1)
+    print('Fim.')
+    sleep(1)
+    print('-=-'*20)
+else:
+    print('Você volta pra casa se perguntando... o que teria atrás daquelas portas?'.format(cores['lilás']))
+    print('fim?'.format(cores['lilás']))

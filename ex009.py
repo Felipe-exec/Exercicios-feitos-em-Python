@@ -1,0 +1,22 @@
+print('tabuada maneira 1.0')
+n = int(input('Digite um número para ver sua tabuada completa abaixo:'))
+a1 = n*1
+a2 = n*2
+a3 = n*3
+a4 = n*4
+a5 = n*5
+a6 = n*6
+a7 = n*7
+a8 = n*8
+a9 = n*9
+a10 = n*10
+print('{} x 1'.format(n))
+print('{} x 2'.format(n))
+print('{} x 3'.format(n))
+print('{} x 4'.format(n))
+print('{} x 5'.format(n))
+print('{} x 6'.format(n))
+print('{} x 7'.format(n))
+print('{} x 8'.format(n))
+print('{} x 9'.format(n))
+print('{} x 10'.format(n))
